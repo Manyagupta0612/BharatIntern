@@ -1,0 +1,149 @@
+body{
+    background-color: #292d33;
+}
+
+.wrapperr{
+    margin: 0.5%;
+}
+.navi{
+    display: flex;
+    font-size: larger;
+}
+
+.color{
+    color: white;
+}
+.color1{
+    color: rgb(201, 62, 62);
+}
+nav{
+    margin-left:25%;
+    margin-top: -3%;
+}
+.h, .s, .a, .c{
+    padding: 6%;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    color: white;
+}
+.c:hover{
+    color: rgb(201, 62, 62);
+}
+.s:hover{
+    color: rgb(201, 62, 62);
+}
+.a:hover{
+    color: rgb(201, 62, 62);
+}
+.h:hover{
+    color: rgb(201, 62, 62);
+}
+.wrapper{
+    display: flex;
+    margin-left: 10%;
+}
+.left{
+    border: 2px solid rgb(201, 62, 62);
+    display: inline-block;
+    background-color: rgb(201, 62, 62);
+    padding: 5% 0% 8% 1%;
+    margin-left: 5%;
+    margin-top: 9%;
+}
+.loc, .pho, .mail{
+    display: flex;
+}
+.let{
+    font-size: 1.6rem;
+    color: white;
+}
+.locic{
+    height: 25px;
+}
+.locte, .mailte, .phote{
+    font-size: 1.5rem;
+    color: white;
+    margin-left: 4%;
+}
+.name1, .email1, .subject1, .message1{
+    border-bottom: 1px solid #ccc;
+    padding: 5px;
+    outline: none;
+    width: 300%;
+    padding-top: 4%;
+}
+.right{
+    border: 2px solid white;
+    background-color: white;
+    height: 500px;
+    margin-top: 9%;
+    padding-left: 4%;
+    padding-right: 25%;
+}
+.name {
+    padding-top: 15%;
+    font-size: 1.5rem;
+}
+.email, .subject, .message{
+    font-size: 1.5rem;
+    padding-top: 9%;
+}
+.name1:focus {
+    border-color: #007bff; /* Change border color when focused */
+}
+.email1:focus {
+    border-color: #007bff; /* Change border color when focused */
+}
+.subject1:focus {
+    border-color: #007bff; /* Change border color when focused */
+}
+.message1:focus {
+    border-color: #007bff; /* Change border color when focused */
+}
+.btn{
+    padding: 8%;
+    font-size: 1rem;
+    margin-top: 13%;
+    background-color: rgb(201, 62, 62);
+    color: white;
+}
+.btn:focus{
+    background-color: rgb(154, 13, 13);
+}
+
+
+
+.bottom{
+    background-color: rgb(95, 88, 88);
+    overflow: hidden;
+    bottom: 0; 
+    width: 100%; 
+    margin-bottom: 0lvw;
+    text-align: center;
+}
+
+.bicons{
+    margin-top: 2lvw;
+}
+
+.ibtn{
+    height: 2.4lvw; 
+    width: 2.4lvw; 
+    cursor: pointer; 
+    border-radius: 3lvw; 
+    font-size: 1.5lvw;
+    color: white;
+    background-color: rgb(95, 88, 88);
+    border: 0.02lvw solid white;
+}
+
+.ibtn:hover{
+    background-color: white;
+    color: black;
+}
+
+.btext{
+    color: white;
+    font-size: 1.2lvw;
+}
